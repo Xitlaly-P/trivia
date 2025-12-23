@@ -10,13 +10,15 @@ const App: React.FC = () => {
   const [images, setImages] = useState<Record<number, string[]>>({});
 
   async function fetchImages() {
-    const res = await fetch("http://localhost:5000/uploads.json");
+    const baseUrl = import.meta.env.VITE_API_URL
+
+    const res = await fetch(`${baseUrl}/uploads.json`)
     const data: Record<number, string[]> = await res.json();
 
     const urls: Record<number, string[]> = {};
     for (const qid in data) {
       urls[Number(qid)] = data[qid].map(
-        (filename) => `http://localhost:5000/uploads/${filename}`
+        (filename) => `${baseUrl}/uploads/${filename}`
       );
     }
 
