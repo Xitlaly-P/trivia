@@ -1,4 +1,5 @@
 const API = import.meta.env.VITE_API_KEY;
+console.log("API_BASE:", API); 
 
 export async function login(
   username: string,
