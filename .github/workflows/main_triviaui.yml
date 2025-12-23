@@ -74,4 +74,4 @@ jobs:
         with:
           app-name: 'triviaui'
           slot-name: 'Production'
-          package: backend
+          package: ./backend
