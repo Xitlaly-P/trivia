@@ -10,7 +10,7 @@ const App: React.FC = () => {
   const [images, setImages] = useState<Record<number, string[]>>({});
 
   async function fetchImages() {
-    const baseUrl = import.meta.env.VITE_API_URL
+    const baseUrl = import.meta.env.VITE_API_KEY
 
     const res = await fetch(`${baseUrl}/uploads.json`)
     const data: Record<number, string[]> = await res.json();
