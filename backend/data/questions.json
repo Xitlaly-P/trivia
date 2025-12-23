@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "question": "When did we send out the first treats?",
+    "options": ["2022", "2021", "2023", "2024"],
+    "answer": "2022",
+    "points": 10
+  },
+  {
+    "id": 2,
+    "question": "What was the theme in 2023?",
+    "options": ["Christmas cards", "mug shots", "cards", "threats"],
+    "answer": "Christmas cards",
+    "points": 10
+  },
+  {
+    "id": 3,
+    "question": "What grade was Lamisha in when the greatest love story began?",
+    "options": ["10th", "9th", "8th", "7th"],
+    "answer": "10th",
+    "points": 10
+  },
+  {
+    "id": 4,
+    "question": "Xitlalys first job?",
+    "options": ["Coathanger", "hostess", "Home Depot", "dads helper"],
+    "answer": "Coathanger",
+    "points": 10
+  },
+  {
+    "id": 5,
+    "question": "Lamishas first job?",
+    "options": ["Beach umbrella set up", "beach tagger in Ventnor", "Castaway Cove", "TJ Maxx"],
+    "answer": "Beach umbrella set up",
+    "points": 10
+  },
+  {
+    "id": 6,
+    "question": "Where are Lamisha and Xitlaly traveling?",
+    "options": ["Puerto Rico", "Dominican Republic", "Miami", "California"],
+    "answer": "Puerto Rico",
+    "points": 10
+  },
+  {
+    "id": 7,
+    "question": "What concert did Lamisha and Xitlaly see?",
+    "options": ["The Marías", "Omar Apollo", "Malcolm Todd", "Kali Uchis"],
+    "answer": "The Marías",
+    "points": 10
+  },
+  {
+    "id": 8,
+    "question": "What neighborhood did Lamisha and Xitlaly share?",
+    "options": ["Birdland", "Birch Grove", "Memorial Park", "Rosa Parks"],
+    "answer": "Birdland",
+    "points": 10
+  },
+  {
+    "id": 9,
+    "question": "What franchise did Lamisha and Xitlaly binge?",
+    "options": ["Harry Potter", "Percy Jackson", "The Hunger Games", "Divergent"],
+    "answer": "Harry Potter",
+    "points": 10
+  },
+  {
+    "id": 10,
+    "question": "Where was Lamisha kidnapped?",
+    "options": ["Philadelphia", "Cherry Hill", "Newark", "Xitlaly's House"],
+    "answer": "Philadelphia",
+    "points": 10
+  },
+  {
+    "id": 11,
+    "question": "What was Lamishas first car's name?",
+    "options": ["Greta", "Pam", "Clementine", "Tangerine"],
+    "answer": "Greta",
+    "points": 10
+  },
+  {
+    "id": 12,
+    "question": "Upload a photo with our cookies",
+    "image_required": true,
+    "points": 15
+  }
+]
