@@ -19,6 +19,14 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Build Frontend
+        working-directory: ./frontend
+        env:
+          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
+        run: |
+          npm install
+          npm run build
+          
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
