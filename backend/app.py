@@ -5,7 +5,19 @@ from flask import send_from_directory
 
 app = Flask(__name__)
 app.secret_key = "dev-secret"
-CORS(app, supports_credentials=True)
+CORS(
+    app,
+    supports_credentials=True,
+    origins=[
+        "http://localhost:5173",
+        "https://mango-moss-05db4bc10.2.azurestaticapps.net"
+    ]
+)
+
+app.config.update(
+    SESSION_COOKIE_SAMESITE="None",
+    SESSION_COOKIE_SECURE=True
+)
 
 DATA_DIR = "data"
 UPLOAD_DIR = "uploads"
