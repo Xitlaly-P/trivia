@@ -44,8 +44,8 @@
   {
     "id": 7,
     "question": "What concert did Lamisha and Xitlaly see?",
-    "options": ["The Marías", "Omar Apollo", "Malcolm Todd", "Kali Uchis"],
-    "answer": "The Marías",
+    "options": ["The Marias", "Omar Apollo", "Malcolm Todd", "Kali Uchis"],
+    "answer": "The Marias",
     "points": 10
   },
   {
@@ -81,5 +81,12 @@
     "question": "Upload a photo with our cookies",
     "image_required": true,
     "points": 15
+  },
+  {
+    "id": 13,
+    "question": "Rate our cookies our cookies",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "5",
+    "points": 5
   }
 ]

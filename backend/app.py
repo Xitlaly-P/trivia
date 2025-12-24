@@ -102,6 +102,15 @@ def get_question():
         return jsonify({"error": "Unauthorized"}), 401
     return jsonify(questions)
 
+@app.route("/user-answers")
+def user_answers():
+    user = session.get("user")
+    if not user:
+        return jsonify({"error": "Unauthorized"}), 401
+
+    return jsonify(answers.get(user, []))
+
+
 @app.route("/answer", methods=["POST"])
 def answer():
     user = session.get("user")

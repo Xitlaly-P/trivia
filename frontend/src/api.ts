@@ -49,3 +49,10 @@ export async function uploadImage(
 export async function getLeaderboard(): Promise<[string, number][]> {
   return fetch(`${API}/leaderboard`).then((res) => res.json());
 }
+
+export async function getUserAnswers(): Promise<number[]> {
+  const res = await fetch(`${API}/user-answers`, {
+    credentials: "include",
+  });
+  return res.json();
+}

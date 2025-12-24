@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.login-input::placeholder {
+  font-size: 20px;
+  color: #aaa;
+}
+
+.login-input:focus::placeholder {
+  color: #ccc;
+}
